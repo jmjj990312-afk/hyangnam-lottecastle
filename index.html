@@ -450,9 +450,7 @@ footer button{background:none;border:0;color:var(--gold2);text-decoration:underl
       <li><b>수집 목적</b>: 견본주택 방문예약 확인 및 분양 상담 안내</li>
       <li><b>보유 기간</b>: 상담 완료 후 6개월 이내 파기 (요청 시 즉시 파기)</li>
       <li><b>제3자 제공</b>: 제공하지 않습니다.</li>
-      <li><b>운영자</b>: 박윤아 팀장 (010-8523-0806)</li>
-      <li><b>광고 측정</b>: 광고 효과 확인을 위해 메타(페이스북·인스타그램) 픽셀을 사용합니다. 방문·예약 신청 여부만 전달되며 이름·연락처는 전달하지 않습니다.</li>
-    </ul>
+      <li><b>운영자</b>: 박윤아 팀장 (010-8523-0806)</li>    </ul>
     <p>동의를 거부하실 수 있으며, 이 경우 예약 접수가 제한됩니다. 전화(1666-3911) 상담은 동의 없이 이용 가능합니다.</p>
     <button type="button" class="ok" data-close="priv">닫기</button>
   </div>
@@ -464,7 +462,7 @@ var SITE_NAME  = '향남 롯데캐슬 시그니처';
 var SMS_TO     = '01085230806';   // 휴대폰 예약 문자를 받을 번호 (박윤아 팀장)
 var CALL       = '1666-3911';     // 대표전화
 var SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx71epn08W5ycMNoUFlmvnAMvwlKdqB_LGMSfHucdyHbGQhQqdFHHil8bJQU69pWkyu/exec';            // PC 예약 → 이메일 알림 + 구글시트 (Apps Script 주소)
-var META_PIXEL_ID = '1554045146544075';  // 메타 픽셀 "박윤아분양" (데이터 세트) ID 숫자. 비워두면 픽셀 꺼짐
+var META_PIXEL_ID = '';           // 메타 픽셀(데이터 세트) ID 숫자. 비워두면 픽셀 꺼짐
 /* ======================================== */
 
 /* 메타 픽셀: 페이지 방문(PageView), 예약 신청(Lead), 전화 버튼(Contact)만 알림. 이름·연락처는 보내지 않음 */
